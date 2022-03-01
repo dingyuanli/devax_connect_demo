@@ -97,7 +97,7 @@ class CdkConnectDemoStack(Stack):
                                assumed_by=iam.ServicePrincipal("lambda.amazonaws.com"),
                                description="Role for lambda"
                                )
-        lambda_role.add_managed_policy(iam.ManagedPolicy.from_aws_managed_policy_name("AWSLambdaBasicExecutionRole"))
+        lambda_role.add_managed_policy(iam.ManagedPolicy.from_aws_managed_policy_name("AWSLambdaExecute"))
 
         lambda_backend = _lambda.Function(
             self, 'BackendLambda',
