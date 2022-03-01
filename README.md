@@ -5,29 +5,29 @@
 
 1. Clone this repository
 ```
-$ git clone https://github.com/dingyuanli/devax_connect_demo.git
+ git clone https://github.com/dingyuanli/devax_connect_demo.git
 ```
 
 2. Enter the folder
 
 ```
-$ cd devax_connect_demo
+ cd devax_connect_demo
 ```
 
 3. Bootstrap the project (prerequisite: [Install CDK](https://docs.aws.amazon.com/cdk/v2/guide/cli.html))
 
 ```
-$ cdk bootstrap
+ cdk bootstrap
 ```
 
 4. Once the environment is bootrapped, you can now deploy the cdk.
 
 ```
-$ cdk deploy
+ cdk deploy
 ```
 5. Clean up
 ```
-$ cdk destory
+ cdk destory
 ```
 
 
