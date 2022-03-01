@@ -1,6 +1,8 @@
 
 # Welcome to demo repository for DevAx Connect!
 
+![1](devax_connect_demo.png)
+
 1. Clone this repository
 ```
 $ git clone https://github.com/dingyuanli/devax_connect_demo.git
