@@ -14,7 +14,7 @@
  cd devax_connect_demo
 ```
 
-3. Bootstrap the project (prerequisite: [Install CDK](https://docs.aws.amazon.com/cdk/v2/guide/cli.html))
+3. Bootstrap the project (prerequisite: [Install CDK](https://docs.aws.amazon.com/cdk/v2/guide/cli.html), AWS credential configuration)
 
 ```
  cdk bootstrap
